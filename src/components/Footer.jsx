@@ -23,8 +23,8 @@ const Footer = () => {
     {
       icon: WhatsAppIcon,
       label: 'WhatsApp',
-      value: '+57 321 6813504',
-      href: 'https://wa.me/573216813504'
+      value: '+57 1 254 1553',
+      href: 'https://wa.me/5712541553'
     },
     {
       icon: EnvelopeIcon,
@@ -117,8 +117,8 @@ const Footer = () => {
             <h4 className="text-white font-semibold mb-2">¿Prefieres agendar por llamada?</h4>
             <p className="text-gray-300 text-sm">
               Esta es nuestra línea de contacto para agendar tu cita por llamada:
-              <a href="tel:+573216813504" className="text-primary font-semibold hover:underline ml-1" aria-label="Llamar a 321 6813504">
-                321 6813504
+              <a href="tel:+5716012541553" className="text-primary font-semibold hover:underline ml-1" aria-label="Llamar a 601 254 1553">
+                601 254 1553
               </a>
             </p>
           </div>
