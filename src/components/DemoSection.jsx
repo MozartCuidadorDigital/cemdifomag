@@ -37,6 +37,13 @@ const DemoSection = () => {
             Nuestro portal inteligente te guía en cada paso del proceso.
           </p>
         </div>
+          {/* Widget status */}
+            <div className="text-center">
+              <div className="inline-flex items-center gap-2 text-red-400">
+                <div className="w-2 h-2 bg-red-400 rounded-full animate-pulse"></div>
+                <span>¡Portal en mantenimiento! Pronto volveremos con nuestros servicios.</span>
+              </div>
+            </div>
 
         {/* Demo container */}
         <div className="max-w-4xl mx-auto">
@@ -94,17 +101,17 @@ const DemoSection = () => {
 
             {/* Widget status */}
             <div className="text-center">
-              <div className="inline-flex items-center gap-2 text-green-400">
-                <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-                <span>¡Portal disponible! El widget aparece inmediatamente al cargar la página</span>
+              <div className="inline-flex items-center gap-2 text-red-400">
+                <div className="w-2 h-2 bg-red-400 rounded-full animate-pulse"></div>
+                <span>¡Portal en mantenimiento! Pronto volveremos con nuestros servicios.</span>
               </div>
             </div>
 
             {/* Widget info */}
             <div className="text-center mt-4">
-              <div className="text-text-muted text-sm mb-2">
+              {/* <div className="text-text-muted text-sm mb-2">
                 Agenda tus citas médicas las 24 horas del día
-              </div>
+              </div> */}
             </div>
           </div>
 
